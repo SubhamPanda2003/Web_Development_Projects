@@ -1,0 +1,65 @@
+body{
+    font-family: 'Akaya Telivigala', cursive;
+}
+nav ul{
+    list-style-type: none;
+}
+nav{
+    
+font-family: 'Akaya Telivigala', cursive;
+
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.gamecontainer{
+  
+    display: grid;
+    grid-template-columns: repeat(3,7rem);
+    grid-template-rows: repeat(3,7rem);
+   
+}
+.boxtext{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    margin: 1.8rem;
+}
+.box{
+   
+    border:2px solid black;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin:5rem;
+    
+}
+.box:hover{
+    background-color: aquamarine;
+}
+
+a{
+    position: absolute;
+    margin: 23rem -14rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: aqua;
+    cursor: pointer;
+    border: 2px solid blue;
+    text-decoration: none;
+}
+.result{
+    position: absolute;
+    margin: 30rem -20rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    color: red;
+ 
+}
