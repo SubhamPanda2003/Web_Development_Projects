@@ -56,10 +56,21 @@ a{
 }
 .result{
     position: absolute;
-    margin: -5rem -20rem;
+    margin: -5rem -18rem;
     font-size: 2rem;
     padding: 1.5rem;
     border-radius: 2rem;
     color: red;
  
+}
+.gif{
+    display: none;
+   
+   
+
+}
+.pic{
+    margin: 0rem -22rem;
+    height: 22rem;
+    width: 24rem;
 }
