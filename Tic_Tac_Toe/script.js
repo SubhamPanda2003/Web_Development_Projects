@@ -3,6 +3,8 @@ let s={};
 var x={};
     var o={};
     var result = document.getElementsByClassName('result');
+    var m = document.getElementsByClassName('gamecontainer');
+    var n = document.getElementsByClassName('gif');
    
 function function1(a){
     if(s[a]!=1)
@@ -30,6 +32,8 @@ function function1(a){
        myAudio. play();
        var myAudio2 = new Audio('music.mp3');
        myAudio2. play();
+      //  m[0].style.display='none';
+       n[0].style.display='block';
 
       }
     if(o[0]*o[1]*o[2]==1||o[3]*o[4]*o[5]==1||o[6]*o[7]*o[8]==1||o[0]*o[3]*o[6]==1||o[1]*o[4]*o[7]==1||o[2]*o[5]*o[8]==1||o[0]*o[4]*o[8]==1||o[2]*o[4]*o[6]==1)
@@ -38,7 +42,9 @@ function function1(a){
     var myAudio = new Audio('gameover.mp3');
     myAudio. play();
     var myAudio2 = new Audio('music.mp3');
-    myAudio2. play();}
+    myAudio2. play();
+    // m[0].style.display='none';
+    n[0].style.display='block';}
     i++;
     }
 }
