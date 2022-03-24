@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+}
+.container{
+    position: relative;
+    width: 80rem;
+ 
+  margin: auto;
+  
+}
+img{
+    border-radius: 20px;
+    margin-top: 2rem;
+    height: 25rem;
+    
+    
+}
+
+
+.bbb{
+    border-radius: 25px;
+    margin: 0rem 1rem;
+    background-color: blue;
+    padding: 1rem 0rem;
+}
+   
+.scroll{
+  margin: auto;
+}
+body{
+    overflow: hidden;
+}
