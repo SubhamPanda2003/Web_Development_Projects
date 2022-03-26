@@ -1,8 +1,11 @@
 body{
     background-color: aqua;
-    height: auto;
-   
 }
+body {
+    background-image: url("bg.jpg");
+    background-color: #cccccc;
+    background-size:100%;
+   }
 .container{
     position: relative;
     
@@ -13,7 +16,7 @@ body{
 img{
     border-radius: 20px;
     margin-top: 2rem;
-    height: 25rem;
+    height: 20rem;
     
     
 }
@@ -21,12 +24,25 @@ img{
 
 .bbb{
     border-radius: 25px;
-    margin: 0rem 1rem;
-    background-color: blue;
+    margin: 0rem 0.5rem;
+    background-color: rgb(255, 136, 0);
+    text-align: center;
     padding: 1rem 0rem;
 }
    
 .scroll{
   margin: auto;
-  overflow: hidden;
 }
+body{
+    overflow: hidden;
+}
+@media only screen and (max-width: 2000px) {
+    .col8{
+      width: 69vw;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .col8{
+      width: 100%;
+    }
+  }
