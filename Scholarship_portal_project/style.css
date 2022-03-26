@@ -1,9 +1,11 @@
 body{
     background-color: aqua;
+    height: auto;
+   
 }
 .container{
     position: relative;
-    width: 80rem;
+    
  
   margin: auto;
   
@@ -26,7 +28,5 @@ img{
    
 .scroll{
   margin: auto;
-}
-body{
-    overflow: hidden;
+  overflow: hidden;
 }
