@@ -1,0 +1,18 @@
+{
+  "name": "email_marketing_project_with_mailchimp_nodejs",
+  "version": "1.0.0",
+  "description": "Email Marketing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subham Panda",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.74",
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "request": "^2.88.2"
+  }
+}
