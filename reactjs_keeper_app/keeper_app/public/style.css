@@ -1,0 +1,42 @@
+.nav{
+    margin-top: -10px;
+    height: 4rem;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 50px;
+}
+.heading{
+    margin-top: 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+body{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+   width: 100%;
+}
+.msg{
+ 
+   margin: auto;
+   
+}
+.inp{
+    
+    height: 5rem;
+    width: 15rem;
+    background-color: lightcyan;
+    
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+    margin: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
