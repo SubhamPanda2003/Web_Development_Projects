@@ -40,3 +40,10 @@ body{
 .btn:hover{
     cursor: pointer;
 }
+.msgdisp{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 12px;
+    width:fit-content;
+}

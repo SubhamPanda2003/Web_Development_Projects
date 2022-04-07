@@ -14,7 +14,7 @@ app.get('/',function(req,res){
 
 app.post('/',function(req,res){
     
-https.get("https://api.openweathermap.org/data/2.5/weather?q="+req.body.city+"&appid=fa53d40cd7a49560d30a5d4dda776e71&units=metric", (resp) => {
+https.get("https://api.openweathermap.org/data/2.5/weather?q="+req.body.city+"&appid=wrongAPIfa7a49560d30a5d4dda776e71&units=metric", (resp) => {
   
 
   // A chunk of data has been received.

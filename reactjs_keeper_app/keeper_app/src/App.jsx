@@ -4,7 +4,7 @@ import Msg from "./Components/msg";
 import Msgdisp from "./Components/msgdisplay";
 // import Footer from "./Components/Footer"
 let msg1;
-let msg3=['1','2','3','4'];
+
 function del(index){
    msg1=index;
    console.log(msg1);

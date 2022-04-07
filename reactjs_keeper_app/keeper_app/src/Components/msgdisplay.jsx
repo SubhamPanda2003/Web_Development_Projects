@@ -9,8 +9,8 @@ function del1(index){
 function disp(element,index){
     return(
         <div>
-        <li className="msgdisp">{element}</li>
-        <button className="del" onClick={()=>{del1(element)}} >Delete</button>
+        <li className="msgdisp">{element}  <button className="del" onClick={()=>{del1(element)}} >Delete</button></li>
+       
         </div>
     );
 }
