@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+       
+           <% for(let i=0;i<9;i++){ %>
+                <p><%= ((d.data[d.arrb[i]]).name)+"   "+((d.data[d.arrb[i]]).low)+"     "+((d.data[d.arrb[i]]).high)+"       "+((d.data[d.arrb[i]]).volume)+"        "+((d.data[d.arrb[i]]).sell)+"      "+((d.data[d.arrb[i]]).buy)+"       "+((d.data[d.arrb[i]]).at); %></p>
+                <% } %>
+           
+    </body>
+</html>
