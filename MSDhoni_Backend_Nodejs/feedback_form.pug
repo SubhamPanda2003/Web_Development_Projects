@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content=
+			"width=device-width, initial-scale=1.0")
+
+		title Feedback Form
+		//- we are directly use static files because
+		// already use static serve
+		link(rel="stylesheet", href="/static/style.css")
+	body
+		.form
+			h2 Feedback Form
+			if(msg)
+				small=msg
+			//- feedback_form POST route
+			form(action="/feedback_form.pug",method="POST")
+				label(for="name") Enter Your Name
+				input#name(type="text", name="name")
+				label(for="email") Enter Your Email
+				input#email(type="email", name="email")
+				label(for="feedback") Enter Your Feedback
+				textarea#feedback(
+					name="feedback",
+					cols="30", rows="5"
+				)
+				button(type="submit") Submit

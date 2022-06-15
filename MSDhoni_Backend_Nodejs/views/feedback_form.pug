@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='This is description')
+    meta(name='keywords', content='ms dhoni,subham panda')
+    meta(name='robots', content='INDEX,FOLLOW')
+    link(rel="stylesheet", href="/static/style1.css")
+    title Contact Us
+  body
+    div
+      ul.navbar
+        a(href='/home.pug')
+          li Home
+        a(href='/Achievements.pug')
+          li Achievements
+        a(href='/Awards.pug')
+          li Awards
+        a(href='/About.pug')
+          li About The Developer
+        a(href='/feedback_form.pug')
+          li Contact Us         
+    form(action='/feedback_form.pug', method='post')
+      #form
+        .ff
+          input#email1(type='text', name='name', placeholder='Enter Your Name')
+        .ff
+          input#email(type='email', name='email', placeholder='Enter Your Email')
+        .ff
+          input#email2(type='text', name='msg', placeholder='Enter your message here')
+        button.btn
+          | Submit
+    script(src='script.js')
